@@ -24,3 +24,13 @@ phpMyAdminでも可能。
 ```
 CREATE TABLE `contact`.`content` (`id` INT(11) NOT NULL , `name` VARCHAR(50) NOT NULL , `name_furi` VARCHAR(50) NOT NULL , `age` INT(3) NOT NULL , `email` VARCHAR(100) NOT NULL , `subject` VARCHAR(100) NOT NULL , `body` VARCHAR(1000) NOT NULL , `date` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
+
+## git clone してお試しください。
+
+※ <strong>~/htdocs/*</strong>に配置すること
+
+```
+git clone https://github.com/koseizakio/PHP7-Contact-form-basic.git
+```
+
+## 参考にしたURL
