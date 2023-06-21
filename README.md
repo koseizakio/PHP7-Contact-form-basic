@@ -4,17 +4,12 @@
 
 MacOS MAMP ローカル環境
 
-```
-PHP 7.4.33
-```
+PHP ```7.4.33```
 
-```
-Webサーバー、Apache
-```
+Webサーバー```Apache```
 
-```
-MySQL 5.7.39
-```
+MySQL```5.7.39```
+
 
 データベースの説明
 
@@ -23,6 +18,8 @@ MySQL 5.7.39
 テーブル名```contact```
 
 テーブル作成(MySQL)
+
+phpMyAdminでも可能。
 
 ```
 CREATE TABLE `contact`.`content` (`id` INT(11) NOT NULL , `name` VARCHAR(50) NOT NULL , `name_furi` VARCHAR(50) NOT NULL , `age` INT(3) NOT NULL , `email` VARCHAR(100) NOT NULL , `subject` VARCHAR(100) NOT NULL , `body` VARCHAR(1000) NOT NULL , `date` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
