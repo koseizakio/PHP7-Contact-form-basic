@@ -36,3 +36,5 @@ git clone https://github.com/koseizakio/PHP7-Contact-form-basic.git
 ## 参考にしたURL
 
 [PHP メールフォームの作り方](https://www.webdesignleaves.com/pr/php/php_contact_form_01.php)
+
+[PHP コンタクトフォーム（お問い合わせページ）の作り方](https://www.webdesignleaves.com/pr/php/php_contact_form_02.php)
