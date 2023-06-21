@@ -1,15 +1,17 @@
-PHPの課題５
+# PHP7 お問い合わせフォーム 入門
 
-### CSVアップロードからのMySQLへのデータ挿入
+## 環境バージョン
 
-https://qiita.com/mpyw/items/caa2568284b69d270f8b
+MacOS MAMP ローカル環境
 
-### データをCSVファイルとしてダウンロードする
+```
+PHP 7.4.33
+```
 
-https://gray-code.com/php/download-for-csv-file/
+```
+MySQL 5.7.39
+```
 
-### PHP DBからCSVを生成してダウンロードする
-
-https://php.programmer-reference.com/php-mysql-csv-download/
+Webサーバー、Apache
 
 
