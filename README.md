@@ -33,6 +33,8 @@ CREATE TABLE `contact`.`content` (`id` INT(11) NOT NULL , `name` VARCHAR(50) NOT
 git clone https://github.com/koseizakio/PHP7-Contact-form-basic.git
 ```
 
+※ このソースコードはメール送信できません。
+
 ## 参考にしたURL
 
 [PHP メールフォームの作り方](https://www.webdesignleaves.com/pr/php/php_contact_form_01.php)
