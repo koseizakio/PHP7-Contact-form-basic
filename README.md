@@ -32,11 +32,45 @@ CREATE TABLE `contact`.`content` (`id` INT(11) NOT NULL , `name` VARCHAR(50) NOT
 ```
 git clone https://github.com/koseizakio/PHP7-Contact-form-basic.git
 ```
+## php.iniの設定
 
-※ このソースコードはメール送信できません。
+```
+[mail function]
+; For Win32 only.
+; http://php.net/smtp
+SMTP = smtp.gmail.com
+; http://php.net/smtp-port
+smtp_port = 587
+```
+
+## Macのmain.cfの設定
+
+/private/etc/postfix/main.cf
+
+```
+# Gmail on MAMP
+#
+myorigin = gmail.com
+myhostname = smtp.gmail.com
+relayhost = [smtp.gmail.com]:587
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/private/etc/postfix/アプリパスワード
+smtp_sasl_security_options = noanonymous
+smtp_sasl_mechanism_filter = plain
+inet_protocols = all
+smtp_use_tls = yes
+smtp_tls_security_level = encrypt
+tls_random_source = dev:/dev/urandom
+```
+
+次にアプリパスワードファイルの作成
+
+```sample@gmail.com``` を自分のGmailのメアドにする。
+
+https://tech.amefure.com/web-mamp-gmail#head4
 
 ## 参考にしたURL
 
 [PHP メールフォームの作り方](https://www.webdesignleaves.com/pr/php/php_contact_form_01.php)
 
-[PHP コンタクトフォーム（お問い合わせページ）の作り方](https://www.webdesignleaves.com/pr/php/php_contact_form_02.php)
+[【MAMP/Gmail】ローカル環境でメールをテスト送信するための設定方法！](https://tech.amefure.com/web-mamp-gmail)
