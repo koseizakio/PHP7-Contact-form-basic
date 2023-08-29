@@ -36,7 +36,7 @@
         // DB接続成功
         $db = new PDO('mysql:dbname=contact;host=localhost;
         charset=utf8', $user, $password);
-        $stmt = $db->prepare("select * from contact where id = :id");
+        $stmt = $db->prepare("SELECT * FROM `contact` WHERE id = :id");
         $stmt->bindValue(":id" , $id, PDO::PARAM_INT);
         $stmt->execute();
         

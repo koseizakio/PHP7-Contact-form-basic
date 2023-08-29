@@ -21,7 +21,7 @@
         // DB接続成功
         $db = new PDO('mysql:dbname=contact;host=localhost;
         charset=utf8', $user, $password);
-        $stmt = $db->prepare("select * from contact");
+        $stmt = $db->prepare("SELECT * FROM `contact`");
         $stmt->execute();
 
         // データ格納

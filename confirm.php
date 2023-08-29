@@ -39,7 +39,7 @@
             charset=utf8', $user, $password);
             echo 'DB接続成功', PHP_EOL;
             // データの追加
-            $dbd = $db->prepare('INSERT INTO contact values(NULL, :name, :name_furi, :age, :email, :subject, :body, :date);');
+            $dbd = $db->prepare("INSERT INTO `contact` VALUES(NULL, :name, :name_furi, :age, :email, :subject, :body, :date);");
             $dbd->bindValue(':name', $name, PDO::PARAM_STR);
             $dbd->bindValue(':name_furi', $name_furi, PDO::PARAM_STR);
             $dbd->bindValue(':age', $age, PDO::PARAM_STR);
