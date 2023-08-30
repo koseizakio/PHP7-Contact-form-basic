@@ -1,8 +1,9 @@
 # PHP7 お問い合わせフォーム 入門
 
-## 環境バージョン
+## EC2環境
+[README-EC2.md](./README-EC2.md)
 
-MacOS MAMP ローカル環境
+## MacOS MAMP ローカル環境
 
 PHP ```7.4.33```
 
