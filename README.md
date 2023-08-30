@@ -24,6 +24,10 @@ phpMyAdminでも可能。
 ```
 CREATE TABLE `contact`.`contact` (`id` INT(11) NOT NULL , `name` VARCHAR(50) NOT NULL , `name_furi` VARCHAR(50) NOT NULL , `age` INT(3) NOT NULL , `email` VARCHAR(100) NOT NULL , `subject` VARCHAR(100) NOT NULL , `body` VARCHAR(1000) NOT NULL , `date` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
+※ IDをAUTO_INCREMENTする。
+```
+ALTER TABLE `contact` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+```
 
 ## git clone してお試しください。
 
