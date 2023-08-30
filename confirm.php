@@ -24,7 +24,7 @@
 
     // 戻るボタンがクリックされた場合
     if(isset($_POST['return'])){
-        header('Location: contact.php');
+        header('Location: index.php');
         exit();
     // 送信ボタンがクリックされた場合
     }else if(isset($_POST['send'])){
