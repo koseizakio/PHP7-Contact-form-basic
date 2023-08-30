@@ -166,6 +166,10 @@ ALTER TABLE `contact` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
 
 ### 完成物
 
+構成図
+
+![](https://koseizakio.link/wp-content/uploads/2023/08/diagram-1024x613.png)
+
 お問い合わせフォーム
 
 ![](https://koseizakio.link/wp-content/uploads/2023/08/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2023-08-30-10.35.12.png)

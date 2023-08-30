@@ -74,6 +74,10 @@ tls_random_source = dev:/dev/urandom
 
 https://tech.amefure.com/web-mamp-gmail#head4
 
+## 構成図
+
+![](https://koseizakio.link/wp-content/uploads/2023/08/diagram-1024x613.png)
+
 ## 参考にしたURL
 
 [PHP メールフォームの作り方](https://www.webdesignleaves.com/pr/php/php_contact_form_01.php)
