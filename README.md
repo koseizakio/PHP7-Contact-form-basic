@@ -76,7 +76,7 @@ https://tech.amefure.com/web-mamp-gmail#head4
 
 ## 構成図
 
-![](https://koseizakio.link/wp-content/uploads/2023/08/diagram-1.png)
+![](./img/diagram.png)
 
 ## 参考にしたURL
 

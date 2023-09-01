@@ -37,7 +37,12 @@
         try{
             $db = new PDO('mysql:dbname=contact;host=localhost;
             charset=utf8', $user, $password);
-            // echo 'DB接続成功', PHP_EOL;
+            echo '<div class="container">
+            <h2>お問い合わせフォーム</h2>
+            <h3>送信完了!</h3>
+            <p>お問い合わせいただきありがとうございます。</p>
+            <p>送信完了いたしました。</p>
+        </div>', PHP_EOL;
             // データの追加
             $dbd = $db->prepare("INSERT INTO `contact` VALUES(NULL, :name, :name_furi, :age, :email, :subject, :body, :date);");
             $dbd->bindValue(':name', $name, PDO::PARAM_STR);
